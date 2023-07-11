@@ -1,0 +1,105 @@
+body {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background: black;  
+  background-position: center center;
+  height: 100%;
+  color: #eff0f2;
+}
+.comeco{
+  background-color: #060e2a;
+}
+
+.tituloTxt {
+  font-size: 2.5em;
+  font-weight: 1000;
+  color: #eff0f2;
+  padding: 0.5em;
+}
+.textoP {
+  font-size: 1.5em;
+  font-weight: 800;
+  padding: 0.2em;
+}
+
+.ativa {
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  -webkit-transition: margin-left 600ms ease-in;
+  -moz-transition: margin-left 600ms ease-in;
+  -o-transition: margin-left 600ms ease-in;
+  transition: margin-left 600ms ease-in;
+  border-radius: 1em;
+}
+#container {
+  overflow: hidden;
+  position: relative;
+  width: 100%em;
+  height: 20em;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: -35em;
+  padding: 0.5em;
+  
+}
+
+header {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3em 3em 0 0;
+  background-color: #060e2a;
+}
+
+main {
+  background-color: #060e2a;
+}
+
+.central {
+  margin-top: 1em;
+}
+.bancoLogo {
+  width: 5em;
+  height: 5em;
+  padding: 1em;
+}
+
+.bancos {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.eu{
+  width: 20em;
+  height: 25;
+}
+
+.sessao{
+  margin-top: -7em;
+  text-align: center;
+}
+.tituloum{
+  margin-top: 3em;
+  font-size: 3em;
+  font-weight: 500;
+  color: #eff0f2;
+}
+
+i{
+  color: orange;
+
+}
+.rr{
+  text-align: center;
+}
+
+.eudois{
+  width: 20em;
+  height: 25;
+  margin-top: 2em;
+}
