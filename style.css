@@ -22,6 +22,7 @@ body {
   font-weight: 800;
   padding: 0.2em;
 }
+
 .textoPa {
   margin: 10px;
   font-size: 1.5em;
@@ -48,6 +49,18 @@ body {
   justify-content: center;
   margin-left: -35em;
   padding: 0.5em;
+}
+
+.ljogos {
+  width: 3.5em;
+  height: 5em;
+  padding: 1em;
+}
+
+.listJogos {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
 }
 
 header {
@@ -84,20 +97,18 @@ main {
 }
 
 .sessao {
-  margin-top: -7em;
-  text-align: center;
   margin-top: 5em;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 .tituloum {
-  background: #9b51e0;
-
-  font-weight: 1000;
-  padding: 0.3em;
-  margin: 20px;
+  font-weight: 800;
+  padding: 0.1em;
   background: #0693e3;
   margin-top: 3em;
   font-size: 3em;
-  font-weight: 500;
+
   color: #060e2a;
 }
 
@@ -105,20 +116,23 @@ i {
   color: orange;
 }
 .rr {
+  align-items: center;
   text-align: center;
+  justify-content: center;
 }
 
 .eudois {
   width: 20em;
   height: 25;
   margin-top: 2em;
+  border-radius: 1em;
 }
 
 .destaque {
   background: #9b51e0;
   font-size: 2.5em;
   font-weight: 1000;
-  padding: 0.3em;
+  padding: 0.1em;
   margin: 20px;
   color: #060e2a;
 }
@@ -143,7 +157,7 @@ a {
 }
 
 .teste {
-  margin-top: 3em;
+  margin-top: 2em;
 }
 
 footer {
@@ -170,13 +184,13 @@ footer {
 }
 
 .redesLogo {
-  width:2em;
-  height:2em;
+  width: 2em;
+  height: 2em;
   padding: 1em;
   transition: 2s;
 }
 
-.redesLogo:hover{
+.redesLogo:hover {
   border-radius: 15em;
   background: #9b51e0;
   transition: 2s;
@@ -189,4 +203,33 @@ footer {
   align-items: center;
   text-align: center;
   justify-content: center;
+}
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+  .textoPa {
+    font-size: 2em;
+  }
+
+  .textoP {
+    font-size: 2em;
+  }
+  .rodapet {
+    font-size: 0.8em;
+  }
+
+  #container {
+    width: 20%em;
+    height: 11em;
+    margin-left: -21em;
+  }
+
+  .textoP {
+    font-size: 1.5em;
+  }
+
+  .bancoLogo {
+    width: 3em;
+    height: 3em;
+    padding: 1em;
+  }
 }
