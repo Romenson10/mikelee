@@ -135,11 +135,11 @@ a {
   transition: 1s;
 }
 
-.cont:hover{
-    padding: 0.8em;
-    font-size: 2.3em;
-    transition: 1s;
-    background: #065f12;
+.cont:hover {
+  padding: 0.8em;
+  font-size: 2.3em;
+  transition: 1s;
+  background: #065f12;
 }
 
 .teste {
@@ -157,14 +157,36 @@ footer {
 }
 
 .fim {
-    margin-top: 2em;
+  margin-top: 2em;
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
 }
 
-.maior{
-    align-items: end;
-    text-align: end;
+.maior {
+  align-items: end;
+  text-align: end;
+}
+
+.redesLogo {
+  width: 4em;
+  height: 4em;
+  padding: 1em;
+  transition: 2s;
+}
+
+.redesLogo:hover{
+  border-radius: 15em;
+  background: #9b51e0;
+  transition: 2s;
+  padding: 1.2em;
+}
+
+.redes {
+  margin-top: 3em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
