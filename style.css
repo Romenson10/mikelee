@@ -2,12 +2,12 @@ body {
   align-items: center;
   text-align: center;
   justify-content: center;
-  background: black;  
+  background: black;
   background-position: center center;
   height: 100%;
   color: #eff0f2;
 }
-.comeco{
+.comeco {
   background-color: #060e2a;
 }
 
@@ -22,7 +22,12 @@ body {
   font-weight: 800;
   padding: 0.2em;
 }
-
+.textoPa {
+  margin: 10px;
+  font-size: 1.5em;
+  font-weight: 800;
+  padding: 0.2em;
+}
 .ativa {
   align-items: center;
   position: absolute;
@@ -43,7 +48,6 @@ body {
   justify-content: center;
   margin-left: -35em;
   padding: 0.5em;
-  
 }
 
 header {
@@ -74,32 +78,93 @@ main {
   justify-content: center;
 }
 
-.eu{
+.eu {
   width: 20em;
   height: 25;
 }
 
-.sessao{
+.sessao {
   margin-top: -7em;
   text-align: center;
+  margin-top: 5em;
 }
-.tituloum{
+.tituloum {
+  background: #9b51e0;
+
+  font-weight: 1000;
+  padding: 0.3em;
+  margin: 20px;
+  background: #0693e3;
   margin-top: 3em;
   font-size: 3em;
   font-weight: 500;
-  color: #eff0f2;
+  color: #060e2a;
 }
 
-i{
+i {
   color: orange;
-
 }
-.rr{
+.rr {
   text-align: center;
 }
 
-.eudois{
+.eudois {
   width: 20em;
   height: 25;
   margin-top: 2em;
+}
+
+.destaque {
+  background: #9b51e0;
+  font-size: 2.5em;
+  font-weight: 1000;
+  padding: 0.3em;
+  margin: 20px;
+  color: #060e2a;
+}
+
+a {
+  text-decoration: none;
+}
+.cont {
+  color: white;
+  background: #0cab21;
+  font-size: 2em;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  transition: 1s;
+}
+
+.cont:hover{
+    padding: 0.8em;
+    font-size: 2.3em;
+    transition: 1s;
+    background: #065f12;
+}
+
+.teste {
+  margin-top: 3em;
+}
+
+footer {
+  background: #060e2a;
+}
+
+.rodapet {
+  color: #eff0f2;
+  font-size: 1.2em;
+  padding: 1em;
+}
+
+.fim {
+    margin-top: 2em;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.maior{
+    align-items: end;
+    text-align: end;
 }
