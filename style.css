@@ -96,6 +96,8 @@ main {
   height: 25;
 }
 
+
+
 .sessao {
   margin-top: 5em;
   align-items: center;
@@ -205,6 +207,16 @@ footer {
   justify-content: center;
 }
 
+select,
+.ljogos {
+  transition: 1s;
+}
+
+
+.ljogos:hover {
+  filter: blur(0px) !important;
+  transform: scale(2) rotate(360deg) !important;
+}
 @media screen and (min-width: 200px) and (max-width: 915px) {
   .textoPa {
     font-size: 2em;
